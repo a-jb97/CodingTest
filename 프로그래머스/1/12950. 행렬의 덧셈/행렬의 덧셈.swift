@@ -1,8 +1,4 @@
 func solution(_ arr1:[[Int]], _ arr2:[[Int]]) -> [[Int]] {
-    guard arr1.count == arr2.count else {
-        return []
-    }
-    
     var result = Array(repeating: Array(repeating: 0, count: arr1[0].count), count: arr1.count)
     
     for i in 0..<arr1.count {
